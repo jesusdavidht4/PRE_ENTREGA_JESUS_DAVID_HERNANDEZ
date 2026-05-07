@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
+# Tests de automatización para SauceDemo
 def test_loging(driver):
     login(driver, "standard_user", "secret_sauce")
     assert "inventory.html" in driver.current_url
